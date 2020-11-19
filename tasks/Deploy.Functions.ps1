@@ -548,7 +548,7 @@ function New-DetectionRule {
         [string]$check32BitRegOn64System = "False"
     )
     if ($PowerShell) {
-        $ScriptFile = [IO.Path]::Combine((Split-Path $PSScriptRoot -Parent), "Detection Scripts", $ScriptFile)
+        $ScriptFile = [IO.Path]::Combine((Split-Path $PSScriptRoot -Parent), "detection scripts", $ScriptFile)
         if (!(Test-Path "$ScriptFile")) {
             Write-Host
             Write-Host "Could not find file '$ScriptFile'..." -ForegroundColor Red
