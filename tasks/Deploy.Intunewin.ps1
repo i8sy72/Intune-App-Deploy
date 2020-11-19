@@ -63,6 +63,14 @@ switch ($config.detection.detectionType) {
         }
         break
     }
+    "powershell" {
+        $dtParam = @{
+            powershell              = $true
+            scriptFile              = $config.detection.powershell.scriptFile
+            enforceSignatureCheck   = $config.detection.powershell.enforceSignatureCheck
+            runAs32Bit              = $config.detection.powershell.runAs32Bit
+        }
+    }
     default {
         throw "incorrect detection type.."
         break
