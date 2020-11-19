@@ -98,4 +98,4 @@ if ($config.application.icon) {
     $publishParam.largeIcon = [convert]::ToBase64String(([System.IO.File]::ReadAllBytes("$appRoot\$($config.application.icon)")))
 }
 Publish-Win32Lob @publishParam
-#endregionn
+#endregion
