@@ -13,7 +13,7 @@ This repo can be used as a scaffold to very easily build and deploy win32 applic
 - Clone the repo to your development environment
 - Open the repo folder in VS Code
 - Start preparing your applications in the **applications folder** (One app per folder..)
-- Place any optional Detection scripts in the **dection scripts** folder (You can place them all here)
+- Place any optional Detection scripts in the **detection scripts** folder (You can place them all here)
 - Open the command palette (ctrl+shift+p // F1) and type **Run Task**
 
 ## Right, what tasks have we got?
