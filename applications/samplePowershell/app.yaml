@@ -27,3 +27,7 @@ detection:
     check32BitRegOn64System: false
   msi:
     msiProductCode: ""
+  powershell:
+    scriptFile: "sample-detection-script.ps1" 
+    enforceSignatureCheck: false
+    runAs32Bit: false
