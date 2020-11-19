@@ -80,7 +80,7 @@ detection:
   msi: # MSI installation detection (application GUID)
     msiProductCode: "{F16BDC7C-960E-4F21-A44A-41E996D5356C}"
     
-  powershell:
+  powershell: # used for custom detection scripts
     scriptFile: "sample-detection-script.ps1" # this file should be located in the "detection scripts" folder
     enforceSignatureCheck: false
     runAs32Bit: false
